@@ -20,6 +20,7 @@
 		6644056A2BAACBC8001D602A /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6644055C2BAACBC8001D602A /* Roboto-Regular.ttf */; };
 		6644056B2BAACBC8001D602A /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6644055D2BAACBC8001D602A /* Roboto-Thin.ttf */; };
 		6644056C2BAACBC8001D602A /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6644055E2BAACBC8001D602A /* Roboto-ThinItalic.ttf */; };
+		6644056F2BAACDB4001D602A /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6644056E2BAACDB4001D602A /* UIFont + Extension.swift */; };
 		66E02F8D2BAA10DA00AD5367 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E02F8C2BAA10DA00AD5367 /* AppDelegate.swift */; };
 		66E02F8F2BAA10DA00AD5367 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E02F8E2BAA10DA00AD5367 /* SceneDelegate.swift */; };
 		66E02F912BAA10DA00AD5367 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E02F902BAA10DA00AD5367 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 		6644055C2BAACBC8001D602A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		6644055D2BAACBC8001D602A /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		6644055E2BAACBC8001D602A /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		6644056E2BAACDB4001D602A /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
 		66E02F892BAA10DA00AD5367 /* Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Food.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E02F8C2BAA10DA00AD5367 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66E02F8E2BAA10DA00AD5367 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		664405502BAACB8A001D602A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6644056D2BAACD93001D602A /* Extensions */,
 				664405512BAACBA2001D602A /* Fonts */,
 			);
 			path = Resources;
@@ -97,6 +100,14 @@
 				6644055E2BAACBC8001D602A /* Roboto-ThinItalic.ttf */,
 			);
 			path = Roboto;
+			sourceTree = "<group>";
+		};
+		6644056D2BAACD93001D602A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6644056E2BAACDB4001D602A /* UIFont + Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		66E02F802BAA10DA00AD5367 = {
@@ -214,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6644056F2BAACDB4001D602A /* UIFont + Extension.swift in Sources */,
 				66E02F912BAA10DA00AD5367 /* ViewController.swift in Sources */,
 				66E02F8D2BAA10DA00AD5367 /* AppDelegate.swift in Sources */,
 				66E02F8F2BAA10DA00AD5367 /* SceneDelegate.swift in Sources */,
